@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maze Ball</title>
-    <script src="js/p5.js"></script>
+    <script src="js/p5.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #maze {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .ball {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            transition: transform 0.1s ease-out;
+        }
+    </style>
 </head>
+
 <body>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
+
 </html>
